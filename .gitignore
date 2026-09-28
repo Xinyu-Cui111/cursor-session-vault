@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.recode/
+.agent-chats/
+sessions/*
+!sessions/README.md
+sessions/_hook.log
+sessions/_health.json
+sessions/_health.md
+config.json

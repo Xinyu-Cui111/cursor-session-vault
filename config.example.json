@@ -1,0 +1,18 @@
+{
+  "scheme": "project_date",
+  "layout": "{project}/{date}/{title}__{id}.md",
+  "on": ["stop", "sessionEnd"],
+  "title_from": "first_user_line",
+  "dedupe": "overwrite",
+  "index": true,
+  "frontmatter": true,
+  "debug": false,
+  "title_max_len": 40,
+  "project_mirror": {
+    "enabled": true,
+    "mode": "junction",
+    "dir": ".agent-chats",
+    "gitignore": true
+  },
+  "comment": "See SCHEMES.md. project_mirror: each workspace gets .agent-chats → sessions/{project}/"
+}

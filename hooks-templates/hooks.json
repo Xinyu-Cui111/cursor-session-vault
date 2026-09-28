@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "hooks\\save-session.cmd",
+        "timeout": 15
+      }
+    ],
+    "stop": [
+      {
+        "command": "hooks\\save-session.cmd",
+        "timeout": 30
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "hooks\\save-session.cmd",
+        "timeout": 30
+      }
+    ]
+  }
+}
